@@ -1,0 +1,17 @@
+{
+  "ConnectionString": {
+    "DefaultConnection": "",
+    "ServiceBusConnection": ""
+  },
+  "WriteTo": [
+    {
+      "Name": "MSSqlServer",
+      "Args": {
+        "ConnectionString": "",
+        "TableName": "Logs",
+        "Expression": "Contains(@Level = 'Error' or 'Warning')",
+        "AutoCreateSqlTable": true
+      }
+    }
+  ]
+}

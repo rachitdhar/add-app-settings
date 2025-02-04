@@ -1,0 +1,5 @@
+{
+  "DefaultMainPath": "C:\\",
+  "ExampleProj": "\\example-proj",
+  "ProjectsWithAdditionalSettings": ["ExampleProj"]
+}
